@@ -48,4 +48,9 @@ public class MainTest {
         //Assert
         assertTrue(output);
     }
+
+    @Test(expected = NullPointerException.class) 
+    public void nullPointerSpecial2023() {
+        Main.Special(2023);
+    }
 }
