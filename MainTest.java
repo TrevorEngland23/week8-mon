@@ -29,4 +29,13 @@ public class MainTest {
         //Assert
         assertFalse(output);
     }
+
+    @Test
+    public void testIsPrimeNegativeNumber(){
+        //Arrange
+        //Act
+        boolean output = Main.isPrime(-1);
+        //Assert
+        assertFalse(output);
+    }
 }
