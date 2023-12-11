@@ -38,4 +38,14 @@ public class MainTest {
         //Assert
         assertFalse(output);
     }
+
+    @Test
+
+     public void testIsPrimeHighNumber(){
+        //Arrange
+        //Act
+        boolean output = Main.isPrime(97);
+        //Assert
+        assertTrue(output);
+    }
 }
