@@ -1,8 +1,31 @@
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class MainTest {
     @Test
     public void testIsPrimeTrue() {
-        // arrange
+        // Arrange
+
+        // Act
+        boolean output = Main.isPrime(5); // include name of class
+
+        // Assert
+
+        assertTrue(output); 
+    }
+
+    @Test
+
+    public void testIsPrimeFalse() {
+        // Arrange
+
+        // Act
+
+        boolean output = Main.isPrime(4);
+
+        // Assert
+
+        assertFalse(output);
     }
 }
